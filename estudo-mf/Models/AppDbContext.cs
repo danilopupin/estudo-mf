@@ -9,5 +9,7 @@ namespace estudo_mf.Models
         public DbSet<Veiculos> Veiculo { get; set;}
 
         public DbSet<Consumo> Consumos { get; set; }
+
+        public DbSet<Usuarios> Usuarios { get; set; }
     }
 }

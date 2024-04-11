@@ -15,7 +15,7 @@ namespace estudo_mf.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Veiculos");
         }
 
         public IActionResult Privacy()
